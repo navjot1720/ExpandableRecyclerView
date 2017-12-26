@@ -1,18 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rv_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.uncommonbugs.expandablerecyclerview.HomeActivity">
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:padding="20dp">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <!--Section button-->
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_sectional"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="Sectional"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_list_sectional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="List"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_grid_sectional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="Grid"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="gone" />
+
+
+    <!--Hierarchical button-->
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_hierarchical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="Hierarchical"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_list_hierarchical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="List"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_grid_hierarchical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="Grid"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="gone" />
+
+
+</LinearLayout>
+
