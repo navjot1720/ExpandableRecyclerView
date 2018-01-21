@@ -6,7 +6,8 @@ This module demonstrates the Expandable/Collapsing functionality in RecyclerView
 
 <a href="https://gifs.com/gif/expandablerecyclerview-86WWEL"><img src="https://j.gifs.com/86WWEL.gif"/></a>
 
-## Hierarchical View
 
 <a href="https://gifs.com/gif/expandablerecyclerview-1rEEBj"><img src="https://j.gifs.com/1rEEBj.gif"/></a>
+
+
 
